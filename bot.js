@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Collection, Events, EmbedBuilder, GatewayIntentBits, IntentsBitField } = require('discord.js');
 const { createClient } = require('@supabase/supabase-js');
-const { LISTENER, supabase } = require('../config.json');
+const { LISTENER, supabase } = require('./config.json');
 
 // const supabase = createClient(supabase.SUPABASE_URL, supabase.SUPABASE_API_KEY);
 const supabaseClient = createClient(supabase.SUPABASE_URL, supabase.SUPABASE_API_KEY);
@@ -152,8 +152,9 @@ client.once(Events.ClientReady, c => {
 
 client.login(LISTENER.TOKEN);
 
+// const PORT = process.env.PORT || 3000;
 
- client.listen(PORT);
- console.log(`Server running at ${PORT}`);
-(process.env.NOW_REGION) ? module.exports = client : client.listen(PORT);
-console.log(`Server running at ${PORT}`);
+//  client.listen(PORT);
+//  console.log(`Server running at ${PORT}`);
+// (process.env.NOW_REGION) ? module.exports = client : client.listen(PORT);
+// console.log(`Server running at ${PORT}`);
