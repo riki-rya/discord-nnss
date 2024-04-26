@@ -3,7 +3,8 @@
     "builds": [
         {
             "src": "./bot.js",
-            "use": "@vercel/node"
+            "use": "@vercel/node",
+            "devCommand": "node bot.js"
         }
     ],
     "routes": [
