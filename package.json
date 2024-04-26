@@ -1,1 +1,14 @@
-{"scripts":{"build":"webpack","start":"node bot.js"},"dependencies":{"@supabase/supabase-js":"^2.42.0","discord.js":"^14.14.1"},"devDependencies":{"webpack":"^5.91.0"}}
+{
+  "scripts": {
+    "build": "webpack",
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.42.0",
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
