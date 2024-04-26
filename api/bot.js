@@ -153,7 +153,7 @@ client.once(Events.ClientReady, c => {
 client.login(LISTENER.TOKEN);
 
 
-// app.listen(PORT);
-// console.log(`Server running at ${PORT}`);
-(process.env.NOW_REGION) ? module.exports = app : app.listen(PORT);
+ client.listen(PORT);
+ console.log(`Server running at ${PORT}`);
+(process.env.NOW_REGION) ? module.exports = client : client.listen(PORT);
 console.log(`Server running at ${PORT}`);
