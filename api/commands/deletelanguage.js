@@ -1,6 +1,6 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { createClient } = require('@supabase/supabase-js');
-const { supabase } = require('../config.json');
+const { supabase } = require('../../config.json');
 
 const supabaseClient = createClient(supabase.SUPABASE_URL, supabase.SUPABASE_API_KEY);
 
