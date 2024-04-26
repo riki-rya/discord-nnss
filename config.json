@@ -1,0 +1,11 @@
+{
+    "LISTENER": {
+        "CLIENT_ID": "1225778303844225077",
+        "TOKEN": "MTIyNTc3ODMwMzg0NDIyNTA3Nw.GynWt-.mWIZt2EEkthva2nUfLn27NG4ltoWjhS2HgDMJo"
+    },
+    "GUILD_ID": "1225778556743974983",
+    "supabase": {
+    "SUPABASE_URL": "https://zehepwksvlfpwmexumga.supabase.co",
+    "SUPABASE_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InplaGVwd2tzdmxmcHdtZXh1bWdhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTI0MTE4MzcsImV4cCI6MjAyNzk4NzgzN30.7fNtfvdTgfu0ZJ7--kmUIJUVf9gsvb7sWHzqculsqTA"
+    }
+}
